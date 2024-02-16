@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginform.Controller">
+   <children>
+      <Label layoutX="261.0" layoutY="78.0" text="Sign in">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="151.0" text="Username" />
+      <Label layoutX="170.0" layoutY="192.0" text="Password" />
+      <TextField layoutX="288.0" layoutY="147.0" />
+      <PasswordField layoutX="288.0" layoutY="188.0" />
+      <Button layoutX="169.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="265.0" style="-fx-background-color: #24a0ed;" text="Sign in" textFill="WHITE" />
+      <Button layoutX="170.0" layoutY="281.0" mnemonicParsing="false" onAction="#onSignupClick" prefHeight="26.0" prefWidth="266.0" style="-fx-background-color: #000;" text="Sign up" textFill="WHITE" />
+   </children>
+</AnchorPane>
